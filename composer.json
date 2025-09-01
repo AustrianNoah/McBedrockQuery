@@ -2,7 +2,16 @@
   "name": "austriannoah/mcbedrock-query",
   "description": "A PocketMine-MP Virion to query Minecraft Bedrock servers via UDP.",
   "type": "library",
-  "author": "Noah W.",
+  "authors": [
+    {
+      "name": "Noah W.",
+      "email": "packagist@mcpe.fun"
+    },
+    {
+      "name": "xxArox",
+      "role": "contributor"
+    }
+  ],
   "license": "MIT",
   "autoload": {
     "psr-4": {
