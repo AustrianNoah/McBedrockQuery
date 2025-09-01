@@ -8,13 +8,9 @@
       "email": "support@ausiplayz.lol",
       "role": "Founder",
       "homepage": "https://austriannoah.github.io/McBedrock-Query"
-    },
-    {
-      "name": "xxArox",
-      "role": "contributor"
     }
   ],
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "autoload": {
     "psr-4": {
       "AustrianNoah\\McBedrockQuery\\": "src/austriannoah/mcbedrockquery/"
