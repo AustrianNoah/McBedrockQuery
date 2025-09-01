@@ -1,0 +1,6 @@
+name: McBedrockQuery
+version: 1.0.0
+antigen: AustrianNoah\McBedrockQuery
+api: [5.0.0]
+php: [8.0]
+author: AustrianNoah
