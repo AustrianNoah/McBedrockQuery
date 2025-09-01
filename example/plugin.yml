@@ -1,0 +1,4 @@
+name: ExampleQuery
+version: 0.0.1
+author: AusiPlayz
+main: AusiPlayz\Query\ExampleQuery
