@@ -8,6 +8,9 @@
       "AustrianNoah\\McBedrockQuery\\": "src/austriannoah/mcbedrockquery/"
     }
   },
+  "author": {
+    "name": "Noah W."
+  },
   "require": {
     "php": ">=8.2"
   },
