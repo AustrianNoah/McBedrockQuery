@@ -4,7 +4,6 @@ namespace AusiPlayz\Query;
 
 use austriannoah\mcbedrockquery\exception\QueryException;
 use austriannoah\mcbedrockquery\QueryClient;
-use austriannoah\mcbedrockquery\utils\QueryUtil;
 use pocketmine\plugin\PluginBase;
 
 class ExampleCode extends PluginBase {
