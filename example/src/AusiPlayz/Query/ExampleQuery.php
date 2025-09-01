@@ -17,11 +17,15 @@ class ExampleCode extends PluginBase {
 
     private function querySomeServer(): void
     {
+        $queryClient = new QueryClient();
         try {
-            $query = new QueryClient();
-            $query->queryServer("geo.hivebedrock.network", 19132);
-            $simpleMotd = QueryUtil::simpleMotd("geo.hivebedrock.network");
-            $this->getLogger()->info($simpleMotd);
+            $data = $queryClient->queryServer("geo.hivebedrock.network", 19132);
+            $msg = "§aServer:\n";
+            $msg .= "§eMOTD: §f" . $data["motd"] . "\n";
+            $msg .= "§bVersion: §f" . $data["version"] . "\n";
+            $msg .= "§dPlayers: §f" . $data["onlinePlayers"] . "/" . $data["maxPlayers"] . "\n";
+            $msg .= "§6Gamemode: §f" . $data["gamemode"] . "\n";
+            $this->getLogger()->info($msg);
         } catch (QueryException $exception) {
             $this->getLogger()->error($exception->getMessage());
         }
